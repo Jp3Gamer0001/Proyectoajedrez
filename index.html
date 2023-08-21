@@ -1,24 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Jonathan Martinez Gomez">
-        <meta name="description" content="Este sitio web va a ser para aprender sobre el ajedrez">
-        <meta name="keywords" content="HTML, ejemplo, sitio web, ajedrez, etc">
-    
-        <title>Proyecto Ajedrez</title>
-    </head>
-    
-<body>
-    <div class="title">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jonathan Martinez Gomez" />
+    <meta
+      name="description"
+      content="Este sitio web va a ser para aprender sobre el ajedrez"
+    />
+    <meta name="keywords" content="ajedrez, apretura, aprender, basico, etc" />
+    <title>Proyecto Ajedrez</title>
 
-        <h1>Ajedrez</h1>
-        <img src="imagenes/images.jpeg" alt="foto_ajedrez" width="10%" height="10%">
+    <link rel="icon" type="image/png" href="/imagenes/Chess.png" />
+    <!-- en el type="image/tipo de archivo"-->
+  </head>
 
+  <body>
+    <div id="inicio">
+      <h1>Ajedrez</h1>
+      <img
+        src="imagenes/images.jpeg"
+        alt="foto_ajedrez"
+        width="10%"
+        height="10%"
+      />
     </div>
-   
 
+    <hr />
 
-</body>
+    <div id="nav">
+      <h3>Navegación</h3>
+      <ul>
+        <li><a href="#historia">Historia del ajedrez</a></li>
+        <li><a href="#jugadores">Jugadores Importantes</a></li>
+        <li><a href="#conceptos">Conceptos basicos</a></li>
+        <li><a href="#aperturas">Aperturas</a></li>
+        <li><a href="#ranking">Ranking Mundial</a></li>
+      </ul>
+    </div>
+
+    <hr />
+
+    <div id="historia">
+      <h2>Historia del ajedrez</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quam
+        quia dolore molestiae consequuntur est, molestias nemo ex mollitia
+        voluptate maiores consectetur eius odio cumque amet quo dolores quis
+        esse?
+      </p>
+    </div>
+
+    <div id="jugadores">
+      <h2>Jugadores Importantes</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vero
+        similique unde. Quasi incidunt ad aut deserunt, illum, veritatis
+        perspiciatis totam hic adipisci delectus culpa officia eligendi esse
+        quam ipsam!
+      </p>
+    </div>
+
+    <div id="conceptos">
+      <h2>Conceptos basicos</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cum
+        consequatur porro tenetur temporibus aut? Molestias itaque quia
+        laudantium minus fuga aliquid illo culpa doloribus reprehenderit
+        inventore omnis, voluptatibus recusandae!
+      </p>
+    </div>
+
+    <div id="aperturas">
+      <h2>Aperturas</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+        incidunt vero in harum maxime assumenda exercitationem, a magnam,
+        accusamus eaque quibusdam modi. Accusamus deleniti itaque natus veniam
+        soluta modi repellendus?
+      </p>
+    </div>
+
+    <hr />
+
+    <div id="ranking">
+      <table border="1" style="border-style: solid; width: 100%">
+        <caption style="font-size: larger">
+          <b>Ranking Mundial</b>
+        </caption>
+        <thead>
+          <tr>
+            <th>Posición</th>
+            <th>Nombre</th>
+            <th>Federación</th>
+            <th>ELO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><center>1</center></td>
+            <td><center>Magnus Carlsen</center></td>
+            <td><center></center></td>
+            <td><center>2835</center></td>
+          </tr>
+          <tr>
+            <td><center>2</center></td>
+            <td><center>Hikaru Nakamura</center></td>
+            <td><center></center></td>
+            <td><center>2787</center></td>
+          </tr>
+        </tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+
+    <hr />
+
+    <div id="formulario">
+      <h2>Formulario</h2>
+      <form action="">
+        <label for="user">User</label> <br />
+        <input type="text" name="user" id="user"  placeholder="Ingrese su user"/>
+        <br />
+        <br />
+        <label for="password">Password</label> <br />
+        <input type="password" name="password" id="password" />
+        <br />
+        <br />
+        <label for="email">Correo</label> <br />
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <label for="tel">Telefono</label> <br />
+        <input type="tel" name="tel" id="tel" />
+        <br> <br>
+        <input type="submit" name="submit" id="submit">
+      </form>
+    </div>
+  </body>
 </html>
