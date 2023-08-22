@@ -18,20 +18,22 @@
   <body>
     <div class="inicio">
       <h1>
-        <center>Ajedrez</center> <br>
-        <div id="inicio"> <center>
-          <img
-            src="imagenes/images.jpeg"
-            alt="foto_ajedrez"
-            width="30%"
-            height="30%"
-          />
+        <center>Ajedrez</center>
+        <br />
+        <div id="inicio">
+          <center>
+            <img
+              src="imagenes/images.jpeg"
+              alt="foto_ajedrez"
+              width="30%"
+              height="30%"
+            />
+          </center>
         </div>
-      </center>
       </h1>
     </div>
 
-    <hr style="clear:both"/>
+    <hr style="clear: both" />
 
     <div id="nav">
       <h3>Navegación</h3>
@@ -41,6 +43,7 @@
         <li><a href="#conceptos">Conceptos basicos</a></li>
         <li><a href="#aperturas">Aperturas</a></li>
         <li><a href="#ranking">Ranking Mundial</a></li>
+        <li><a href="#formulario">Responde esta encuesta</a></li>
       </ul>
     </div>
 
@@ -281,6 +284,110 @@
         </tbody>
         <tfoot></tfoot>
       </table>
+    </div>
+    <hr />
+    <div id="formulario">
+      <h2><center>Formulario</center></h2>
+      <p><center>Ayudanos resolviendo esta encuesta</center></p>
+      <form action="">
+        <center>
+          <label for="user">User</label> <br />
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Ingrese su user"
+            required
+            autofocus
+            maxlength="10"
+          />
+          <br />
+          <br />
+          <label for="password">Password</label> <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            maxlength="15"
+          />
+          <br />
+          <br />
+          <label for="email">Correo</label> <br />
+          <input type="email" name="email" id="email" />
+          <br />
+          <br />
+          <label for="tel">Telefono</label> <br />
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            value="XXX-XXXXXX"
+            maxlength="10"
+            disabled
+          />
+          <br /><br />
+          <label for="edadlabel">Edad</label> <br />
+          <input
+            type="number"
+            name="edadlabel"
+            id="edadlabel"
+            max="18"
+            min="99"
+          />
+          <br />
+          <br />
+          <label for="">Seleccione sus jugadores favoritos</label> <br />
+          <input type="checkbox" name="Magnus_Carlsen" id="Magnus_Carlsen" />
+          <label for="Magnus_Carlsen">Magnus Carlsen</label><br />
+          <input type="checkbox" name="Hikaru_Nakamura" id="Hikaru_Nakamura" />
+          <label for="Hikaru_Nakamura">HikaruNakamura</label><br />
+          <br />
+          <label for="">Elija su rango de edad</label> <br />
+          <input type="radio" name="radio1" id="radio1" />
+          <label for="radio1">0-15</label> <br />
+          <input type="radio" name="radio1" id="radio2" />
+          <label for="radio2">16-24</label> <br />
+          <input type="radio" name="radio1" id="radio3" />
+          <label for="radio3">25-60</label> <br />
+          <br />
+          <label for="textarea">Ingrese una descripción propia</label> <br />
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="50"
+            rows="5"
+            placeholder="Ingrese su texto"
+          ></textarea>
+          <br />
+          <br />
+          <label for="">Pais de nacimiento</label> <br />
+          <select name="" id="pais_de_nacimiento">
+            <option value="Colombia">Colombia</option>
+            <option value="Canada">Canada</option>
+            <option value="Finlandia">Finlandia</option>
+            <option value="EEUU">Estados Unidos</option>
+            <option value="China">China</option>
+            <option value="Rusia">Rusia</option>
+            <option value="India">India</option>
+            <option value="Brasil">Brasil</option>
+            <option value="ReinoUnido">Reino Unido</option>
+            <option value="Japon">Japón</option>
+            <option value="Francia">Francia</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Mexico">México</option>
+            <option value="Canada">Canadá</option>
+            <option value="Australia">Australia</option>
+            <option value="Sudafrica">Sudáfrica</option>
+            <option value="Espana">España</option>
+            <option value="Italia">Italia</option>
+          </select>
+          <br />
+          <br />
+          <input type="submit" name="submit" id="submit " value="Enviar" />
+          <input type="reset" value="Reset" />
+        </center>
+      </form>
     </div>
   </body>
 </html>
